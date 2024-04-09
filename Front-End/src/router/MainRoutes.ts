@@ -59,23 +59,19 @@ const MainRoutes = {
             path: '/dashboards/marketing/gestion',
             component: () => import('@/views/dashboards/Marketing/Gestion/gestion.vue'),
         },
-        /* Membresias
-        {
-            path: '/dashboards/membresias',
-            component: () => import('@/views/dashboards/Marketing/Marketing.vue'),
-        },
+        /* Membresias*/
         {
             path: '/dashboards/membresias/dashboardAsis',
             component: () => import('@/views/dashboards/Membresias/dashboardAsis/dashboardAsis.vue'),
         },
         {
             path: '/dashboards/membresias/membresias',
-            component: () => import('@/views/dashboards/Membresias/Membresias/membresias.vue'),
+            component: () => import('@/views/dashboards/Membresias/membresias/membresias.vue'),
         },
         {
             path: '/dashboards/membresias/miembros',
             component: () => import('@/views/dashboards/Membresias/miembros/miembros.vue'),
-        },*/
+        },
         {
             path: '/dashboards/rhumanos/Compensacion',
             component: () => import('@/views/dashboards/rhumanos/Compensacion/Rhumanos.vue'),

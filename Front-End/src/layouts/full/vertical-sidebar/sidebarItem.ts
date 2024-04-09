@@ -155,28 +155,29 @@ const sidebarItem: menu[] = [
       }
     ]
   },
- /* Membresias
-  title: "Membresias",
-  icon: ShoppingCartIcon,
-  to: "/dashboards/marketing",
-  children: [
-    {
-      title: 'Dashboard Asistencia',
-      icon: CircleDotIcon,
-      to: '/dashboards/membresias/dashboard asistencia'
-    },
-    {
-      title: 'Membresias',
-      icon: CircleDotIcon,
-      to: '/dashboards/membresias/membresias'
-    },
-    {
-      title: 'Miembros',
-      icon: CircleDotIcon,
-      to: '/dashboards/membresias/miembros'
-    }
-  ]
-},*/
+  /* Membresias*/
+  {
+    title: "Membresias",
+    icon: ShoppingCartIcon,
+    to: "/dashboards/marketing",
+    children: [
+      {
+        title: 'Dashboard Asistencia',
+        icon: CircleDotIcon,
+        to: '/dashboards/membresias/dashboardAsis'
+      },
+      {
+        title: 'Membresias',
+        icon: CircleDotIcon,
+        to: '/dashboards/membresias/membresias'
+      },
+      {
+        title: 'Miembros',
+        icon: CircleDotIcon,
+        to: '/dashboards/membresias/miembros'
+      }
+    ]
+  },
   //Agregar Modulo EjemploModulo
   {
     title: "Modulo de Ejemplo",
@@ -200,26 +201,26 @@ const sidebarItem: menu[] = [
       }
     ]
   },
- 
- /* {
-    title: 'Blog',
-    icon: ChartDonut3Icon,
-    to: '/',
-    children: [
-      {
-        title: 'Posts',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Detail',
-        icon: CircleDotIcon,
-        to: '/apps/blog/early-black-friday-amazon-deals-cheap-tvs-headphones'
-      }
-    ]
-  }*/
-   //Agregar modulo Training
-   {
+
+  /* {
+     title: 'Blog',
+     icon: ChartDonut3Icon,
+     to: '/',
+     children: [
+       {
+         title: 'Posts',
+         icon: CircleDotIcon,
+         to: '/apps/blog/posts'
+       },
+       {
+         title: 'Detail',
+         icon: CircleDotIcon,
+         to: '/apps/blog/early-black-friday-amazon-deals-cheap-tvs-headphones'
+       }
+     ]
+   }*/
+  //Agregar modulo Training
+  {
     title: "Training",
     icon: ShoppingCartIcon,
     to: "/dashboards/training",
@@ -241,26 +242,26 @@ const sidebarItem: menu[] = [
       }
     ]
   },
-   //Agregar Modulo EjemploModulo
-   {
+  //Agregar Modulo EjemploModulo
+  {
     title: "Recursos Humanos",
     icon: ShoppingCartIcon,
     to: "/dashboards/rhumanos",
-    children:[
+    children: [
       {
         title: "Compensacion y Beneficios",
         icon: ShoppingCartIcon,
-        to: "/dashboards/rhumanos/Compensacion/", 
+        to: "/dashboards/rhumanos/Compensacion/",
       },
       {
         title: "Gestion de Rendimiento",
         icon: ShoppingCartIcon,
-        to: "/dashboards/rhumanos/Gestion", 
+        to: "/dashboards/rhumanos/Gestion",
       },
       {
         title: "Reclutamiento y Seleccion",
         icon: ShoppingCartIcon,
-        to: "/dashboards/rhumanos/Reclutamiento", 
+        to: "/dashboards/rhumanos/Reclutamiento",
       },
     ]
   },
@@ -319,7 +320,7 @@ const sidebarItem: menu[] = [
       }
     ]
   },
-  
+
   {
     title: 'Nutricion',
     icon: BasketIcon,
